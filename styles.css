@@ -1,0 +1,45 @@
+body {
+    background-color: #76758a;
+}
+
+h1 {
+    font-family: "Inconsolata", monospace;
+    font-weight: 600;
+    font-size: 135px;
+    color:bisque;
+    text-transform: uppercase;
+    text-align: center;
+    background-image: url("https://imgs.search.brave.com/L6ygiIeqasmE4ahxnFmPQToGUXCIf4uADSS4uEO2tAA/rs:fit:1200:1200:1/g:ce/aHR0cDovL3d3dy53/aG9sZXRpbGVzLmNv/bS9EYXJrLUdyZXkt/TWFyYmxlL2Nvc21v/czN4Nl9CYWNrVXBf/MTAyNTIwMTYyMDMw/NTA1ODlfQmFja1Vw/XzEwMjUyMDE2MjAz/MTMzMzk3LmpwZw");
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url("https://imgs.search.brave.com/L6ygiIeqasmE4ahxnFmPQToGUXCIf4uADSS4uEO2tAA/rs:fit:1200:1200:1/g:ce/aHR0cDovL3d3dy53/aG9sZXRpbGVzLmNv/bS9EYXJrLUdyZXkt/TWFyYmxlL2Nvc21v/czN4Nl9CYWNrVXBf/MTAyNTIwMTYyMDMw/NTA1ODlfQmFja1Vw/XzEwMjUyMDE2MjAz/MTMzMzk3LmpwZw");    opacity: 0.33;
+    height: 150px;
+    display:inline-block;
+    vertical-align: middle;
+    width: 100%;
+}
+
+h2, h3, p, th, tr, td {
+    font-family: 'Overpass Mono', monospace;
+    text-align: center;
+    color: bisque;
+}
+
+h2, h3 {
+    font-weight: 700;
+}
+
+#first {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 33%;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+td {
+    border: 3px solid slateblue;
+}
