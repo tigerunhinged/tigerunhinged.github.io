@@ -1,0 +1,153 @@
+html {
+  font-size: 16px;
+  font-family: 'Share Tech Mono', monospace;
+  color: #b9e776;
+  text-shadow: 2px 1px #A476E7;
+  background-color: black;
+}
+
+#head {
+  display: flex;
+  justify-content: space-between;
+  background-image: url(file:///C:/Users/s_pac/Desktop/responsive-club-starting/starting/sam-albury-oA7MMRxTVzo-unsplash.jpg);
+  background-position: initial;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 1024px) {
+  
+  html {
+    font-size: 15px;
+  }
+  
+  ul {
+    visibility: hidden;
+  }
+
+
+}
+
+@media only screen and (max-width: 480px) {
+
+  html {
+    font-size: 13px;
+  }
+  
+  ul {
+    visibility: hidden;
+  }
+
+  .title {
+    align-content: center;
+    text-align: center !important;
+    padding-left: 9rem;
+}
+
+  
+  #about {
+    background-image: none !important;
+  }
+
+  #find-us {
+    text-align: center;
+  }
+}
+
+#head .title {
+  font-family: 'Syne Mono', monospace;
+  font-size: 2.25rem;
+  flex: 3;
+}
+
+#head .nav {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-around;
+  flex: 1;
+}
+
+a {
+  text-decoration: none;
+  color: #b9e776;
+  text-shadow: 2px 1px #A476E7;
+}
+
+a:hover {
+  background-color: #6D616C;
+  color: #9BA69D;
+}
+
+a:visited {
+  color: #9BA69D;
+}
+
+.buddy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#about {
+  background-image: url("file:///C:/Users/s_pac/Desktop/responsive-club-starting/starting/clement-helardot-95YRwf6CNw8-unsplash.jpg");
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 60%;
+  height: 35rem;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title-us {
+  background-color: #6D616C;
+  opacity: 95%;
+}
+
+.text {
+  background-color: #6D616C;
+  opacity: 95%;
+}
+
+.we-are {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 90%;
+  height: auto;
+  margin: auto;
+  align-content: center;
+  text-align: center;
+}
+
+.title-we {
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+.photos {
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+  height: 40%;
+  justify-content: space-around;
+}
+
+.number {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.number img {
+  width: 30rem;
+  height: 80%;
+}
