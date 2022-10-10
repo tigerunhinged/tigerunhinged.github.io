@@ -1,0 +1,161 @@
+html {
+  font-family: 'Montagu Slab', serif;
+  font-size: 16px;
+  color: antiquewhite;
+  background-color: black;
+}
+
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 12px;
+  }
+
+  #heagund ul {
+    visibility: hidden;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: antiquewhite;
+}
+
+a:hover {
+  color:bisque;
+  background-color: darkslategray;
+}
+
+#heagund {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid antiquewhite;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  background-color: black;
+  margin-top: -0.5rem;
+}
+
+.nav{
+  display: flex;
+  width: 40%;
+  height: auto;
+  flex-shrink: 2;
+}
+
+.nav-item{
+  flex-shrink: 3;
+}
+
+#main, #menu, #team, #foot {
+  position: relative;
+  top: 5.5rem;
+}
+
+h3 {
+  font-family: 'Bitter', serif;
+  font-size: 1.75rem;
+}
+
+.name {
+  flex: 4;
+  margin-left: 1.25rem;
+}
+
+.nav {
+  flex: 3;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  margin-right: 1.75rem;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 90%;
+  height: auto;
+  justify-content: space-around;
+  flex-shrink: 2;
+}
+
+.image-container img {
+  height: auto;
+  width: 32%;
+  padding: .5rem;
+  min-width: 240px;
+  flex-shrink: 2;
+}
+
+#team {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  align-items: center;
+  flex-direction: column;
+  height: max-content;
+  margin: auto;
+}
+
+.team-portrait {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+h6 {
+  font-size: .9rem;
+}
+
+.portrait-name {
+  text-align: center;
+}
+
+.portrait-name img {
+  height: 20rem;
+  width: auto;
+  padding: .5rem;
+}
+
+#menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 4rem;
+  width: 100%;
+  height: auto;
+}
+
+#menu img {
+  max-width: 90%;
+  height: auto;
+  flex-shrink: 2;
+}
+
+#foot {
+  border-top: 1px solid antiquewhite;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  font-family: 'Old Standard TT', serif;
+}
+
+.phone {
+  font-size: .75rem;
+}
+
+.address {
+  list-style: none;
+  text-align: center;
+  font-size: smaller;
+}
+
