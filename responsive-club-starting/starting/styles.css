@@ -9,7 +9,7 @@ html {
 #head {
   display: flex;
   justify-content: space-between;
-  background-image: url(responsive-club-starting/starting/sam-albury-oA7MMRxTVzo-unsplash.jpg);
+  background-image: url(/responsive-club-starting/starting/sam-albury-oA7MMRxTVzo-unsplash.jpg);
   background-position: initial;
   background-size: cover;
   background-repeat: no-repeat;
@@ -91,7 +91,7 @@ a:visited {
 }
 
 #about {
-  background-image: url("responsive-club-starting/starting/clement-helardot-95YRwf6CNw8-unsplash.jpg");
+  background-image: url(/responsive-club-starting/starting/clement-helardot-95YRwf6CNw8-unsplash.jpg);
   margin-top: 3rem;
   display: flex;
   flex-direction: column;
